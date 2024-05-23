@@ -2,7 +2,7 @@
 
 此專案是使用Android Studio開發的計算機，這個計算機可以進行括號與加減乘除的多項式計算！
 
-## "[activity_main.xml](https://github.com/xuexiahanmei/Mycalculator/blob/master/app/src/main/res/activity_main.xml)"部分展示  
+## "[activity_main.xml](https://github.com/xuexiahanmei/Mycalculator/blob/master/app/src/main/res/layout/activity_main.xml)"部分展示  
 Android Studio開發當中的版面是".XML"的檔案格式，我這裡主要使用linear layout來進行布局，各個區塊大小依權重進行分配。而在分配每個按鈕時會將左右空出10dp的距離，導致那些較大的按鈕至中後在布局上會差個幾dp。未來若優化會考慮grid layout與linear layout交叉使用。
 
 <p align="center">
@@ -15,7 +15,7 @@ Android Studio開發當中的版面是".XML"的檔案格式，我這裡主要使
 
 1.介面初始化：在 [onCreate](https://github.com/xuexiahanmei/Mycalculator/blob/master/README.md#onCreate) 中，設定了佈局檔案並初始化了介面元素，如按鈕和文字視圖。
 
-2.按鈕點擊監聽器類別：[CalculatorClickListener](https://github.com/xuexiahanmei/Mycalculator/blob/master/READMEEx.md#CalculatorClickListener) 類別實現了按鈕的點擊監聽器接口，根據點擊的按鈕執行相應的操作。
+2.按鈕點擊監聽器類別：[CalculatorClickListener](https://github.com/xuexiahanmei/Mycalculator/blob/master/README.md#CalculatorClickListener) 類別實現了按鈕的點擊監聽器接口，根據點擊的按鈕執行相應的操作。
 
 3.計算結果：[calculateResult](https://github.com/xuexiahanmei/Mycalculator/blob/master/README.md#calculateResult) 用於執行計算器的計算操作，並在發生異常時即時返回錯誤信息。
 
